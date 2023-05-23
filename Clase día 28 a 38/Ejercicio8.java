@@ -9,10 +9,14 @@ public class Ejercicio8 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese una nota entre 0 y 10");
+
         int nota = scanner.nextInt();
+
         while (nota>10 || nota<0){
             System.out.println("Nota invalida");
             nota= scanner.nextInt();
         }
+
     }
+
 }
