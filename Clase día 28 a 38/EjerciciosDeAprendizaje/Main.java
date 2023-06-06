@@ -56,5 +56,85 @@ public class Main {
         seguro que desea salir del programa (S/N)? Si el usuario selecciona el carácter ‘S’ se sale
         del programa, caso contrario se vuelve a mostrar el menú. */
         //Ejercicio11 e11 = new Ejercicio11();
+        /*
+        Realizar un programa que simule el funcionamiento de un dispositivo RS232, este tipo de
+        dispositivo lee cadenas enviadas por el usuario. Las cadenas deben llegar con un formato
+        fijo: tienen que ser de un máximo de 5 caracteres de largo, el primer carácter tiene que
+        ser X y el último tiene que ser una O.
+        Las secuencias leídas que respeten el formato se consideran correctas, la secuencia
+        especial “&&&&&” marca el final de los envíos (llamémosla FDE), y toda secuencia
+        distinta de FDE, que no respete el formato se considera incorrecta.
+        Al finalizar el proceso, se imprime un informe indicando la cantidad de lecturas correctas
+        e incorrectas recibidas. Para resolver el ejercicio deberá investigar cómo se utilizan las
+        siguientes funciones de Java Substring(), Length(), equals().
+        */
+        //Ejercicio12 e12 = new Ejercicio12();
+        /*
+        Dibujar un cuadrado de N elementos por lado utilizando el carácter “*”. Por ejemplo, si el
+        cuadrado tiene 4 elementos por lado se deberá dibujar lo siguiente:
+        * * * *
+        *     *
+        *     *
+        * * * *
+         */
+        //Ejercicio13 e13 = new Ejercicio13();
+        /*
+        Crea una aplicación que a través de una función nos convierta una cantidad de euros
+        introducida por teclado a otra moneda, estas pueden ser a dólares, yenes o libras. La
+        función tendrá como parámetros, la cantidad de euros y la moneda a converir que será
+        una cadena, este no devolverá ningún valor y mostrará un mensaje indicando el cambio
+        (void).
+        El cambio de divisas es:
+        * 0.86 libras es un 1 €
+        * 1.28611 $ es un 1 €
+        * 129.852 yenes es un 1 €
+         */
+        //Ejercicio14 e14 = new Ejercicio14();
+        /*
+        Realizar un algoritmo que rellene un vector con los 100 primeros números enteros y los
+        muestre por pantalla en orden descendente.
+         */
+        //Ejercicio15 e15 = new Ejercicio15();
+        /*
+        Realizar un algoritmo que rellene un vector de tamaño N con valores aleatorios y le pida
+        al usuario un numero a buscar en el vector. El programa mostrará donde se encuentra el
+        numero y si se encuentra repetido.
+         */
+        //Ejercicio16 e16 = new Ejercicio16();
+        /*
+        Recorrer un vector de N enteros contabilizando cuántos números son de 1 dígito, cuántos
+        de 2 dígitos, etcétera (hasta 5 dígitos).
+         */
+        //Ejercicio17 e17 = new Ejercicio17();
+        /*
+        Realizar un programa que rellene un matriz de 4 x 4 de valores aleatorios y muestre la
+        traspuesta de la matriz. La matriz traspuesta de una matriz A se denota por B y se
+        obtiene cambiando sus filas por columnas (o viceversa).
+         */
+        //Ejercicio18 e18 = new Ejercicio18();
+        /*
+        Realice un programa que compruebe si una matriz dada es anti simétrica. Se dice que
+        una matriz A es anti simétrica cuando ésta es igual a su propia traspuesta, pero cambiada
+        de signo. Es decir, A es anti simétrica si A = -AT. La matriz traspuesta de una matriz A se
+        denota por AT y se obtiene cambiando sus filas por columnas (o viceversa).
+         */
+        //Ejercicio19 e19 = new Ejercicio19();
+        /*
+        Un cuadrado mágico 3 x 3 es una matriz 3 x 3 formada por números del 1 al 9 donde la
+        suma de sus filas, sus columnas y sus diagonales son idénticas. Crear un programa que
+        permita introducir un cuadrado por teclado y determine si este cuadrado es mágico o no.
+        El programa deberá comprobar que los números introducidos son correctos, es decir,
+        están entre el 1 y el 9.
+         */
+        //Ejercicio20 e20 = new Ejercicio20();
+        /*
+        Dadas dos matrices cuadradas de números enteros, la matriz M de 10x10 y la matriz P de
+        3x3, se solicita escribir un programa en el cual se compruebe si la matriz P está contenida
+        dentro de la matriz M. Para ello se debe verificar si entre todas las submatrices de 3x3
+        que se pueden formar en la matriz M, desplazándose por filas o columnas, existe al
+        menos una que coincida con la matriz P. En ese caso, el programa debe indicar la fila y la
+        columna de la matriz M en la cual empieza el primer elemento de la submatriz P.
+        */
+        Ejercicio21 e21 = new Ejercicio21();
     }
 }
